@@ -36,16 +36,32 @@ Route::get('/pages',function () {
 //         return "<h4>User not found</h4>";
 //     }
 // })->whereAlpha('name');
-Route::get('/users/name/{name?}/id/{id?}',function(string $name = null, string $id = null) {
-    if($name) {
-        return "<h1>Welcome $name</h1><ul><li>ID : $id</li><li>NAME : $name</li></ul>";
-    }else {
-        return "<h4>User not found</h4>";
-    }
-})->whereAlpha('name')->whereNumber('id');
+
 
 Route::get('/test',function() {
     return "<h1>This page is under development.</h1>";
+});
+
+Route::prefix('/users')->group(function() {
+    Route::get('/{ID?}',function($id = null) {
+        return view('users',['userid'=>$id]);
+    })->name('users');
+    
+    Route::get('/photos',function() {
+        return "<h1>Picture Gallery</h1>";
+    })->name('user.photos');
+    
+    Route::get('/profile',function() {
+        return "<h1>The User</h1>";
+    })->name('user.profile');
+
+    Route::get('/name/{name?}/id/{id?}',function(string $name = null, string $id = null) {
+        if($name) {
+            return "<h1>Welcome $name</h1><ul><li>ID : $id</li><li>NAME : $name</li></ul>";
+        }else {
+            return "<h4>User not found</h4>";
+        }
+    })->whereAlpha('name')->whereNumber('id');
 });
 
 Route::redirect('/about','/test',302);
