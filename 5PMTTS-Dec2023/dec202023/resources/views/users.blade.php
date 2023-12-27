@@ -1,5 +1,4 @@
-<h1>Welcome to my Laravel Project</h1>
-
+<h1>Welcome - {{ $username }}</h1>
 <nav>
     <ul>
         <li><a href="{{ route('home') }}">Home</a></li>

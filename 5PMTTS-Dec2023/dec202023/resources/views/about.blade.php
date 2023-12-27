@@ -1,4 +1,4 @@
-<h1>Welcome to my Laravel Project</h1>
+<h1>About Us</h1>
 
 <nav>
     <ul>
