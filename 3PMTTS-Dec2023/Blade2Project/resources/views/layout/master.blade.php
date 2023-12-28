@@ -16,13 +16,10 @@
     <!-- Load fonts style after rendering the layout styles -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
-<!--
     
-TemplateMo 559 Zay Shop
+    @stack('style')
 
-https://templatemo.com/tm-559-zay-shop
-
--->
+    <!-- TemplateMo 559 Zay Shop https://templatemo.com/tm-559-zay-shop -->
 </head>
 
 <body>
@@ -70,10 +67,10 @@ https://templatemo.com/tm-559-zay-shop
                             <a class="nav-link" href="{{ route('about') }}">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="shop.html">Shop</a>
+                            <a class="nav-link" href="{{ route('shop') }}">Shop</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                            <a class="nav-link" href="{{ route('contact') }}">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -227,6 +224,8 @@ https://templatemo.com/tm-559-zay-shop
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/templatemo.js"></script>
     <script src="assets/js/custom.js"></script>
+
+    @stack('script')
     <!-- End Script -->
 </body>
 
