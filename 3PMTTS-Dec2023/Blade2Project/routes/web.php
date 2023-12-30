@@ -28,3 +28,7 @@ Route::get('/contact', function () {
 Route::get('/shop', function () {
     return view('shop');
 })->name('shop');
+
+Route::get('/shop/shop-single', function () {
+    return view('shop-single');
+})->name('shop-single');
