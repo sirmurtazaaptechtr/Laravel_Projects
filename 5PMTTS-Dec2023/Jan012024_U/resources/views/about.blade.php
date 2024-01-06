@@ -1,4 +1,9 @@
 @extends('layout.master')
+
+@section('title')
+    About Us    
+@endsection
+
 @section('content')
 <section class="bg-success py-5">
     <div class="container">

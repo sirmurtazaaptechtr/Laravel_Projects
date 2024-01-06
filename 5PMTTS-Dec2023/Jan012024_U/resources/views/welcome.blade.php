@@ -1,5 +1,9 @@
 @extends('layout.master')
 
+@section('title')
+    Welcome    
+@endsection
+
 @section('content')
 <!-- Start Banner Hero -->
 <div id="template-mo-zay-hero-carousel" class="carousel slide" data-bs-ride="carousel">
