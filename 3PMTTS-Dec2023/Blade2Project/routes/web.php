@@ -61,6 +61,7 @@ Route::get('/users', function () {
 
 Route::get('/user/id/{id?}', function ($id) {
     $users = getUsers();
+    abort_if(!isset($users[$id]),404);
     $user = $users[$id];
     return view('user',['id' => $id,'user' => $user]);
 })->name('user');
