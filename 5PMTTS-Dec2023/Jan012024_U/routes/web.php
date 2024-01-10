@@ -54,6 +54,7 @@ Route::get('/customers',function() {
 
 Route::get('/customer/id/{id?}', function ($id = NULL) {
     $customers = getCustomers();
+    abort_if(!isset($customers[$id]),404);
     $customer = $customers[$id];
     return view('customer',['id'=>$id,'customer'=>$customer]);    
 })->name('customer');
