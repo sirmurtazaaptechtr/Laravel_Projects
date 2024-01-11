@@ -14,8 +14,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', [UserController::class,'showHome'])->name('home');
+// Route::get('/about',[UserController::class,'showAbout'])->name('about');
+// Route::get('/shop',[UserController::class,'showShop'])->name('shop');
+// Route::get('/contact',[UserController::class,'showContact'])->name('contact');
+// Route::get('/shop/product',[UserController::class,'showProduct'])->name('product');
+// Route::get('/users',[UserController::class,'ShowAllUsers'])->name('users');
 
-Route::get('/users',[UserController::class,'ShowAllUsers']);
+Route::controller(UserController::class)->group(function() {
+    Route::get('/', 'showHome')->name('home');
+    Route::get('/about','showAbout')->name('about');
+    Route::get('/shop','showShop')->name('shop');
+    Route::get('/contact','showContact')->name('contact');
+    Route::get('/shop/product','showProduct')->name('product');
+    Route::get('/users','ShowAllUsers')->name('users');
+});

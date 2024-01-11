@@ -21,6 +21,21 @@ function getUsers () {
 
 class UserController extends Controller
 {
+    public function showHome () {
+        return view('home');
+    }
+    public function showAbout () {
+        return view('about');
+    }
+    public function showShop () {
+        return view('shop');
+    }
+    public function showContact () {
+        return view('contact');
+    }
+    public function showProduct () {
+        return view('product');
+    }
     public function ShowAllUsers() {
         $users = getUsers();        
         return view('users',['users'=>$users]);        
