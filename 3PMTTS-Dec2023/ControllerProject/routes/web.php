@@ -14,8 +14,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/users',[UserController::class,'showallusers']);
+Route::get('/',[UserController::class,'showHome'])->name('home');
+Route::get('/about',[UserController::class,'showAbout'])->name('about');
+Route::get('/contact',[UserController::class,'showContact'])->name('contact');
+Route::get('/shop',[UserController::class,'showShop'])->name('shop');
+Route::get('/shop/product',[UserController::class,'showProduct'])->name('product');
+Route::get('/users',[UserController::class,'showallusers'])->name('users');
+Route::get('/user/{id}',[UserController::class,'showUser'])->name('user');
