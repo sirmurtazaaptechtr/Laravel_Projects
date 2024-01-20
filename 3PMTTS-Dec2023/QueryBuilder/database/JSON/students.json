@@ -1,0 +1,32 @@
+[
+    {
+      "name" : "Hamza Irfan",
+      "email" : "hamzairfan173@gmail.com",
+      "age" : 20,
+      "city" : "Karachi"
+    },
+    {
+      "name" : "Huzaifa Khan",
+      "email" : "huzaifa2005@gmail.com",
+      "age" : 18,
+      "city" : "Karachi"
+    },
+    {
+      "name" : "Yusra Khan",
+      "email" : "khanyusra550@gmail.com",
+      "age" : 18,
+      "city" : "Karachi"
+    },
+    {
+      "name" : "Zeeshan Khan",
+      "email" : "zeeshankhan503@gmail.com",
+      "age" : 18,
+      "city" : "Karachi"
+    },
+    {
+      "name" : "Faizan Ali",
+      "email" : "faizii7272@gmail.com",
+      "age" : 21,
+      "city" : "Karachi"
+    }
+  ]
