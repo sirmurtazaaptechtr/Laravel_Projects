@@ -1,0 +1,50 @@
+[
+    {
+        "name":"Muhammad Ali",
+        "email":"muhammadali@gmail.com",
+        "age":19,
+        "gender":"male"
+    },
+    {
+        "name":"Urooj Shafi",
+        "email":"syedaurooj@gmail.com",
+        "age":23,
+        "gender":"female"
+    },
+    {
+        "name":"Shoaib Faisal",
+        "email":"shoaibfaisal98@gmail.com",
+        "age":18,
+        "gender":"male"
+    },
+    {
+        "name":"Moiz ur Rehman",
+        "email":"amoiz2074@gmail.com",
+        "age":22,
+        "gender":"male"
+    },
+    {
+        "name":"Affan Mansoor",
+        "email":"affan2023@gmail.com",
+        "age":17,
+        "gender":"male"
+    },
+    {
+        "name":"Hiba Farhan",
+        "email":"hibakhan1857@gmail.com",
+        "age":17,
+        "gender":"female"
+    },
+    {
+        "name":"Junaid Kamran",
+        "email":"junaidkamran89@gmail.com",
+        "age":17,
+        "gender":"male"
+    },
+    {
+        "name":"Khizar Mansoor",
+        "email":"khizarmansoor21@gmail.com",
+        "age":18,
+        "gender":"male"
+    }
+]
