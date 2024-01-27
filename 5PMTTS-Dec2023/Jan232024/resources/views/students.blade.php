@@ -29,7 +29,10 @@
                 <td>{{ $student->email }}</td>
                 <td>{{ $student->age }}</td>
                 <td>{{ $student->gender }}</td>
-                <td><a href="#">view</a></td>
+                <td>
+                    <a href={{ route('student',[$student->id]) }} type="button" class="btn btn-outline-info">view</a>
+                    <a href={{ route('delStudent',[$student->id]) }} type="button" class="btn btn-outline-danger">Delete</a>
+                </td>
             </tr>
         @endforeach
     </tbody>

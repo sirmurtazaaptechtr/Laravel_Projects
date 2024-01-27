@@ -14,4 +14,16 @@ class StudentController extends Controller
         $students = DB::table('students')->get();
         return view('students',['students' => $students]);
     }
+    public function showStudent (string $id) {
+        $student = DB::table('students')->where('id','=',$id)->get();
+        return view('student',['student' => $student]);
+        
+    }
+    public function delStudent(string $id) {
+        $isDeleted = DB::table('students')->where('id','=',$id)->delete();
+        if($isDeleted) {
+            return view('delStudent',['id' => $id]);
+
+        }
+    }
 }
