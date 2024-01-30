@@ -5,6 +5,7 @@
 @section('content')
 <main class="container">
     <h1 class="display-1">All Students</h1>
+    <a href={{ route('studentForm') }} type="button" class="btn btn-primary"> + Add Student</a>
 {{-- @php
     echo "<pre>";
     print_r($students);

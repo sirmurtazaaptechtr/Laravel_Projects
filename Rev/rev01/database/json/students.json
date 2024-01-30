@@ -1,0 +1,20 @@
+[
+    {
+        "name":"Areesha Saud",
+        "email":"areeshasaud2020@gmail.com",
+        "age":22,
+        "city":"Karachi"
+    },
+    {
+        "name":"Syed Murtaza Hussain",
+        "email":"sirmurtazaaptechtr@gmail.com",
+        "age":40,
+        "city":"Karachi"
+    },
+    {
+        "name":"Ali Raza",
+        "email":"aliraza@gmail.com",
+        "age":18,
+        "city":"Karachi"
+    }
+]

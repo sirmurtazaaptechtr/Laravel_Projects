@@ -26,4 +26,17 @@ class StudentController extends Controller
 
         }
     }
+    public function showStudentForm () {
+        return view('studentForm');
+    }
+    public function addStudent(Request $request) {
+        $isInserted = DB::table('students')->insert([
+            'name' => $request->name,
+            'email' => $request->email,
+            'age' => $request->age,
+            'gender' => $request->gender            
+        ]);
+        return redirect()->route('students');        
+        // return redirect()->route('profile', ['id' => 1]);                     
+    }
 }
