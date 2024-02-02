@@ -33,6 +33,7 @@
                 <td>
                     <a href={{ route('student',[$student->id]) }} type="button" class="btn btn-outline-info">view</a>
                     <a href={{ route('delStudent',[$student->id]) }} type="button" class="btn btn-outline-danger">Delete</a>
+                    <a href={{ route('updateForm',[$student->id]) }} type="button" class="btn btn-outline-warning">Edit</a>
                 </td>
             </tr>
         @endforeach

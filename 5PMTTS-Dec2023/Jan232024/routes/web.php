@@ -20,3 +20,6 @@ Route::get('/student/id/{id?}',[StudentController::class,'showStudent'])->name('
 Route::get('/delStudent/id/{id?}',[StudentController::class,'delStudent'])->name('delStudent');
 Route::get('/student/studentform',[StudentController::class,'showStudentForm'])->name('studentForm');
 Route::post('/student/studentform/addstudent',[StudentController::class,'addStudent'])->name('addStudent');
+
+Route::get('/updateform/id/{id?}',[StudentController::class,'updateForm'])->name('updateForm');
+Route::post('/student/updateform/{id?}/updatestudent',[StudentController::class,'updateStudent'])->name('updateStudent');
