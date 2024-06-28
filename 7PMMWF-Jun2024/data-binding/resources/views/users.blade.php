@@ -12,7 +12,12 @@
         {{-- <li>Name : {{ $username }} | Gender : {{ $gender }} | City : {{ !empty($city) ? $city : "No City" }}</li> --}}
         
         @foreach ($users as $id => $user)
-            <li>ID : {{ $id }} | Name : {{ $user['name'] }} | Gender : {{ $user['gender'] }} | <a href="{{ route('user',$id) }}">view</a></li>
+            <li>
+                <b>ID :</b> {{ $id }} | 
+                <b>Name :</b> {{ $user['name'] }} | 
+                <b>Gender :</b> {{ $user['gender'] }} | 
+                <b>Action :</b><a href="{{ route('user',$id) }}">view</a>
+            </li>
         @endforeach
     </ul>
 </body>
