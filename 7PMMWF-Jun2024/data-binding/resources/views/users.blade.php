@@ -9,10 +9,11 @@
 <body>
     <h1>All Users</h1>
     <ul>
-        @foreach ($users as $id => $user)
-            <li>ID : {{ $id }} | Name : {{ $user['name'] }} | Gender : {{ $user['gender'] }}</li>
-        @endforeach
         {{-- <li>Name : {{ $username }} | Gender : {{ $gender }} | City : {{ !empty($city) ? $city : "No City" }}</li> --}}
+        
+        @foreach ($users as $id => $user)
+            <li>ID : {{ $id }} | Name : {{ $user['name'] }} | Gender : {{ $user['gender'] }} | <a href="{{ route('user',$id) }}">view</a></li>
+        @endforeach
     </ul>
 </body>
 </html>
