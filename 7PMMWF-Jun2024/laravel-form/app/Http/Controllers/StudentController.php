@@ -2,11 +2,32 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use App\Models\student;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class StudentController extends Controller
 {
+    public function view($id)
+    {
+        $student = student::findOrFail($id);
+        return view('student', compact('student'));
+    }
+
+    public function delete($id)
+    {
+        $student = student::findOrFail($id);
+        $student->delete();
+        return redirect('/students')->with('success', 'Record deleted successfully');
+    }
+
+
+    public function show () {
+        $students = DB::select('select * from students');
+        //dd($students);
+        return view('students',["students"=>$students]);
+    }
+
     public function create () {
         return view('create');
     }
