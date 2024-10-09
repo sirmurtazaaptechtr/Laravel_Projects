@@ -7,7 +7,8 @@ use Illuminate\Http\Request;
 class UserController extends Controller
 {
     function index() {
-        return view('home');
+        $title = "Welcome";
+        return view('home',['title'=>$title]);
     }    
     function ShowAbout() {
         return view('about');
@@ -18,7 +19,8 @@ class UserController extends Controller
     function ShowContact() {
         return view('contact');
     }    
-    function ShowProduct() {
-        return view('product');
+    function ShowProduct(string $id) {
+        // return view('product',['id' => $id]);
+        return view('product',compact('id'));
     }    
 }

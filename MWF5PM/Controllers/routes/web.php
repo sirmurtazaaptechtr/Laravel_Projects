@@ -11,4 +11,4 @@ Route::get('/shop', [UserController::class,'ShowShop'])->name('shop');
 
 Route::get('/contact-us', [UserController::class, 'ShowContact'])->name('contact');
 
-Route::get('/shop/product', [UserController::class,'ShowProduct'])->name('product');
+Route::get('/shop/product/{id}', [UserController::class,'ShowProduct'])->name('product');

@@ -79,17 +79,17 @@
                                 <div
                                     class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul class="list-unstyled">
-                                        <li><a class="btn btn-success text-white" href="{{ route('product') }}"><i
+                                        <li><a class="btn btn-success text-white" href="{{ route('product',['id' => 1]) }}"><i
                                                     class="far fa-heart"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="{{ route('product') }}"><i
+                                        <li><a class="btn btn-success text-white mt-2" href="{{ route('product',['id' => 1]) }}"><i
                                                     class="far fa-eye"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="{{ route('product') }}"><i
+                                        <li><a class="btn btn-success text-white mt-2" href="{{ route('product',['id' => 1]) }}"><i
                                                     class="fas fa-cart-plus"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="card-body">
-                                <a href="{{ route('product') }}" class="h3 text-decoration-none">Oupidatat non</a>
+                                <a href="{{ route('product',['id' => 1]) }}" class="h3 text-decoration-none">Oupidatat non</a>
                                 <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
                                     <li>M/L/X/XL</li>
                                     <li class="pt-2">
@@ -124,17 +124,17 @@
                                 <div
                                     class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul class="list-unstyled">
-                                        <li><a class="btn btn-success text-white" href="{{ route('product') }}"><i
+                                        <li><a class="btn btn-success text-white" href="{{ route('product',['id' => 1]) }}"><i
                                                     class="far fa-heart"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="{{ route('product') }}"><i
+                                        <li><a class="btn btn-success text-white mt-2" href="{{ route('product',['id' => 1]) }}"><i
                                                     class="far fa-eye"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="{{ route('product') }}"><i
+                                        <li><a class="btn btn-success text-white mt-2" href="{{ route('product',['id' => 1]) }}"><i
                                                     class="fas fa-cart-plus"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="card-body">
-                                <a href="{{ route('product') }}" class="h3 text-decoration-none">Oupidatat non</a>
+                                <a href="{{ route('product',['id' => 1]) }}" class="h3 text-decoration-none">Oupidatat non</a>
                                 <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
                                     <li>M/L/X/XL</li>
                                     <li class="pt-2">
@@ -170,17 +170,17 @@
                                 <div
                                     class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul class="list-unstyled">
-                                        <li><a class="btn btn-success text-white" href="{{ route('product') }}"><i
+                                        <li><a class="btn btn-success text-white" href="{{ route('product',['id' => 1]) }}"><i
                                                     class="far fa-heart"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="{{ route('product') }}"><i
+                                        <li><a class="btn btn-success text-white mt-2" href="{{ route('product',['id' => 1]) }}"><i
                                                     class="far fa-eye"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="{{ route('product') }}"><i
+                                        <li><a class="btn btn-success text-white mt-2" href="{{ route('product',['id' => 1]) }}"><i
                                                     class="fas fa-cart-plus"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="card-body">
-                                <a href="{{ route('product') }}" class="h3 text-decoration-none">Oupidatat non</a>
+                                <a href="{{ route('product',['id' => 1]) }}" class="h3 text-decoration-none">Oupidatat non</a>
                                 <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
                                     <li>M/L/X/XL</li>
                                     <li class="pt-2">
@@ -216,17 +216,17 @@
                                 <div
                                     class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul class="list-unstyled">
-                                        <li><a class="btn btn-success text-white" href="{{ route('product') }}"><i
+                                        <li><a class="btn btn-success text-white" href="{{ route('product',['id' => 1]) }}"><i
                                                     class="far fa-heart"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="{{ route('product') }}"><i
+                                        <li><a class="btn btn-success text-white mt-2" href="{{ route('product',['id' => 1]) }}"><i
                                                     class="far fa-eye"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="{{ route('product') }}"><i
+                                        <li><a class="btn btn-success text-white mt-2" href="{{ route('product',['id' => 1]) }}"><i
                                                     class="fas fa-cart-plus"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="card-body">
-                                <a href="{{ route('product') }}" class="h3 text-decoration-none">Oupidatat non</a>
+                                <a href="{{ route('product',['id' => 1]) }}" class="h3 text-decoration-none">Oupidatat non</a>
                                 <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
                                     <li>M/L/X/XL</li>
                                     <li class="pt-2">
@@ -262,17 +262,17 @@
                                 <div
                                     class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul class="list-unstyled">
-                                        <li><a class="btn btn-success text-white" href="{{ route('product') }}"><i
+                                        <li><a class="btn btn-success text-white" href="{{ route('product',['id' => 1]) }}"><i
                                                     class="far fa-heart"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="{{ route('product') }}"><i
+                                        <li><a class="btn btn-success text-white mt-2" href="{{ route('product',['id' => 1]) }}"><i
                                                     class="far fa-eye"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="{{ route('product') }}"><i
+                                        <li><a class="btn btn-success text-white mt-2" href="{{ route('product',['id' => 1]) }}"><i
                                                     class="fas fa-cart-plus"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="card-body">
-                                <a href="{{ route('product') }}" class="h3 text-decoration-none">Oupidatat non</a>
+                                <a href="{{ route('product',['id' => 1]) }}" class="h3 text-decoration-none">Oupidatat non</a>
                                 <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
                                     <li>M/L/X/XL</li>
                                     <li class="pt-2">
@@ -308,17 +308,17 @@
                                 <div
                                     class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul class="list-unstyled">
-                                        <li><a class="btn btn-success text-white" href="{{ route('product') }}"><i
+                                        <li><a class="btn btn-success text-white" href="{{ route('product',['id' => 1]) }}"><i
                                                     class="far fa-heart"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="{{ route('product') }}"><i
+                                        <li><a class="btn btn-success text-white mt-2" href="{{ route('product',['id' => 1]) }}"><i
                                                     class="far fa-eye"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="{{ route('product') }}"><i
+                                        <li><a class="btn btn-success text-white mt-2" href="{{ route('product',['id' => 1]) }}"><i
                                                     class="fas fa-cart-plus"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="card-body">
-                                <a href="{{ route('product') }}" class="h3 text-decoration-none">Oupidatat non</a>
+                                <a href="{{ route('product',['id' => 1]) }}" class="h3 text-decoration-none">Oupidatat non</a>
                                 <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
                                     <li>M/L/X/XL</li>
                                     <li class="pt-2">
@@ -354,17 +354,17 @@
                                 <div
                                     class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul class="list-unstyled">
-                                        <li><a class="btn btn-success text-white" href="{{ route('product') }}"><i
+                                        <li><a class="btn btn-success text-white" href="{{ route('product',['id' => 1]) }}"><i
                                                     class="far fa-heart"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="{{ route('product') }}"><i
+                                        <li><a class="btn btn-success text-white mt-2" href="{{ route('product',['id' => 1]) }}"><i
                                                     class="far fa-eye"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="{{ route('product') }}"><i
+                                        <li><a class="btn btn-success text-white mt-2" href="{{ route('product',['id' => 1]) }}"><i
                                                     class="fas fa-cart-plus"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="card-body">
-                                <a href="{{ route('product') }}" class="h3 text-decoration-none">Oupidatat non</a>
+                                <a href="{{ route('product',['id' => 1]) }}" class="h3 text-decoration-none">Oupidatat non</a>
                                 <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
                                     <li>M/L/X/XL</li>
                                     <li class="pt-2">
@@ -400,17 +400,17 @@
                                 <div
                                     class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul class="list-unstyled">
-                                        <li><a class="btn btn-success text-white" href="{{ route('product') }}"><i
+                                        <li><a class="btn btn-success text-white" href="{{ route('product',['id' => 1]) }}"><i
                                                     class="far fa-heart"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="{{ route('product') }}"><i
+                                        <li><a class="btn btn-success text-white mt-2" href="{{ route('product',['id' => 1]) }}"><i
                                                     class="far fa-eye"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="{{ route('product') }}"><i
+                                        <li><a class="btn btn-success text-white mt-2" href="{{ route('product',['id' => 1]) }}"><i
                                                     class="fas fa-cart-plus"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="card-body">
-                                <a href="{{ route('product') }}" class="h3 text-decoration-none">Oupidatat non</a>
+                                <a href="{{ route('product',['id' => 1]) }}" class="h3 text-decoration-none">Oupidatat non</a>
                                 <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
                                     <li>M/L/X/XL</li>
                                     <li class="pt-2">
@@ -446,17 +446,17 @@
                                 <div
                                     class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul class="list-unstyled">
-                                        <li><a class="btn btn-success text-white" href="{{ route('product') }}"><i
+                                        <li><a class="btn btn-success text-white" href="{{ route('product',['id' => 1]) }}"><i
                                                     class="far fa-heart"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="{{ route('product') }}"><i
+                                        <li><a class="btn btn-success text-white mt-2" href="{{ route('product',['id' => 1]) }}"><i
                                                     class="far fa-eye"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="{{ route('product') }}"><i
+                                        <li><a class="btn btn-success text-white mt-2" href="{{ route('product',['id' => 1]) }}"><i
                                                     class="fas fa-cart-plus"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="card-body">
-                                <a href="{{ route('product') }}" class="h3 text-decoration-none">Oupidatat non</a>
+                                <a href="{{ route('product',['id' => 1]) }}" class="h3 text-decoration-none">Oupidatat non</a>
                                 <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
                                     <li>M/L/X/XL</li>
                                     <li class="pt-2">

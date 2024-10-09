@@ -1,7 +1,7 @@
 @extends('layout.master');
 
 @section('title')
-    Zay Shop - Welcome
+    Zay Shop - Welcome {{ $title }}
 @endsection
 
 @section('main')
