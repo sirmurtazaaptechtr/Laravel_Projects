@@ -17,15 +17,16 @@
             </thead>
             <tbody>
                 @foreach ($users as $user)
+                @dd($user);
                     <tr>
                         <td>. </td>
                         <td>{{ $user->id }}</td>
                         <td>{{ $user->name }}</td>
-                        <td>{{ $user->gender }}</td>
+                        <td>{{$user->gender->gender ?? 'Not specified' }}</td>
                         <td>{{ $user->email }}</td>
                         <td>
                             <a href="{{ route('user',['id' => $user->id]) }}" type="button" class="btn btn-info">View</a>
-                            <a href="" type="button" class="btn btn-warning">Edit</a>
+                            <a href="{{ route('editUser', ['id'=> $user->id]) }}" type="button" class="btn btn-warning">Edit</a>
                             <a href="" type="button" class="btn btn-danger">Delete</a>
                         </td>
                     </tr>
