@@ -48,9 +48,8 @@ class User extends Authenticatable
         ];
     }
 
-    // Define the relationship: User belongs to one Gender
-    public function gender()
-    {
-        return $this->belongsTo(Gender::class, 'gender_id');
+    // Define a relationship indicating that a User belongs to a single Gender
+    public function gender() {
+        return $this->belongsTo(Gender::class, 'gender_id', 'id');
     }
 }
