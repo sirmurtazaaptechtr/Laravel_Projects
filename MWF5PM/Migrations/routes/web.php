@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\GoogleController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -13,6 +14,10 @@ Auth::routes();
 
 Route::middleware('guest')->group(function () {
     Route::get('/home', [HomeController::class, 'index'])->name('home');
+    Route::controller(GoogleController::class)->group(function(){
+        Route::get('auth/google', 'redirectToGoogle')->name('auth.google');
+        Route::get('auth/google/callback', 'handleGoogleCallback');
+    });
 });
 
 Route::middleware('auth')->group(function () {
